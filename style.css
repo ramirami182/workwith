@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* 共通 */
+* {
+	box-sizing: : border-box;
+}
+
+body {
+	min-height: 1000px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", YuGothic, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium", "Yu Gothic Medium", "æ¸¸ã‚´ã‚·ãƒƒã‚¯", "Yu Gothic", sans-serif;
+	font-weight: 500;
+	line-height: 2;
+	color: #333;
+}
+
+/* header */
+header {
+	padding-top: 40%;
+	background: url(images/bg-main_visual.jpg) center top no-repeat;
+	background-size: cover;
+	position: relative;
+	display: block;
+	height: 30px;
+}
+
+.logo {
+	position: absolute;
+	bottom: 60px;
+	left: 60px;
+}
+
+.logo img {
+	vertical-align: bottom;
+}
+
+/* main */
+.introduction {
+	background-color: #fffff3;
+	padding: 100px 0;
+	height: 240px;
+}
+
+.introduction-area {
+	margin: 0 auto;
+}
+
+.introduction h2 {
+	margin-top: 0;
+	margin-bottom: 60px;
+	font-size: 32px;
+	line-height: 1.0;
+	text-align: center;
+}
+
+.introduction p{
+	font-size: 16px;
+	line-height: 2.0;
+	text-align: center;
+}
+
+.work {
+	background: url(images/bg-content.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	display: block;
+}
+
+.work h1 {
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-size: 32px;
+	line-height: 1.0;
+	text-align: center;
+}
+
+.work-frame {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.work-area {
+	display: flex;
+	background-color: #fffff3;
+}
+
+.work-img {
+	width: 50%;
+}
+
+.work-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.work-text {
+	width: 50%;
+	padding: 40px 20px;
+	box-sizing: border-box;
+}
+
+.work-title {
+	margin-bottom: 20px;
+	line-height: 1.75;
+	font-size: 19px;
+}
+
+.work-note {
+	line-height: 1.75;
+}
+
+.client {
+	background-color: #fffff3;
+	padding: 100px 0;
+	height: 350px;
+	display: block;
+}
+
+.client h1 {
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-size: 32px;
+	line-height: 1.0;
+	text-align: center;
+}
+
+.client p {
+	margin-bottom: 70px;
+	font-size: 16px;
+	line-height: 2.0;
+	text-align: center;
+}
+
+.client ul {
+	display: flex;
+	justify-content: space-between;
+	width: 780px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.crient-logo {
+	vertical-align: bottom;
+}
+
+/* footer */
+
+footer {
+	height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	padding: 24px 20px;
+	background-color: #000;
+}
+
+small {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+}
+
+.footer-nav {
+	display: block;
+}
+
+.footer-nav ul {
+	display: flex;
+	list-style: none;
+}
+
+.footer-nav li {
+	margin-right: 20px;
+	line-height: 1;
+}
+
+.footer-nav a {
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
